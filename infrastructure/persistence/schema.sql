@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS users (
+    id UUID PRIMARY KEY,
+    discord_id TEXT NOT NULL UNIQUE,
+    pseudo TEXT NOT NULL,
+    tag TEXT NOT NULL
+);
